@@ -10,6 +10,8 @@ body {
   display: flex;
   justify-content: center;
   width: 100%;
+  background: rgb(188, 183, 81);
+  background: linear-gradient(40deg, rgba(188, 183, 81, 1) 0%, rgba(191, 71, 36, 1) 100%);
 }
 
 main {
@@ -32,13 +34,21 @@ h3 {
 }
 
 a {
-  color: inherit;
+  color: white;
   text-transform: uppercase;
-  transition: opacity 0.3s ease-out;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease-out;
+  background: #6EA05B;
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: 2px solid #160701;
+  letter-spacing: 1px;
+
 }
 
 a:hover {
-  opacity: 0.75;
+  background: #6ea05bce
 }
 
 .hero {
